@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>All Tech Grading Solutions</title>
+    <!--for icon(favicon) before title-->
+    <link rel="icon" type="image/x-icon"
+        href="https://github.com/Codman899/ATGS/blob/images/favicon-removebg-preview.png?raw=true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+
+
+<body>
+    <div class="header" id="header">
+        <div class="container">
+            <div class="Column">
+                <ul class="contact_details">
+                    <li class="slogan">Machine Inquiry and Dealership</li>
+                    <li class="phone"><i class="fa fa-phone"></i>&nbsp&nbsp<a href="tel:+918607601616"
+                            target="_blank">+918607601616</a></li>
+                    <li class="phone"><i class="fa fa-phone"></i>&nbsp&nbsp<a href="tel:+919813546327">+919813546327</a>
+                    </li>
+                    <li class="mail"><i class="fa fa-envelope">&nbsp&nbsp</i><a
+                            href="mailto:alltechgradingsolutions@gmail.com">alltechgradingsolutions@gmail.com</a></li>
+                    <li class="Nav">
+                        <nav>
+                            <a href="gallery.html">GALLERY</a>&nbsp|&nbsp;
+                            <a href="">BLOGS</a>
+
+                        </nav>
+                    </li>
+
+                </ul>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div style="height: 0px;"></div>
+    <div class="Top_bar">
+        <div class="container2">
+            <div class="Column2">
+                <div style="width: 1108.81px;">
+                    <div class="Logo">
+
+                        <a href="#">
+                            <img class="img"
+                                src="https://github.com/Codman899/ATGS/blob/images/WhatsApp%20Image%202023-09-01%20at%2022.24.41.jpg?raw=true"
+                                >
+                        </a>
+                    </div>
+                    <div class="upper"></div>
+                    <div class="menu_wrapper">
+
+
+                        <!-- <div class="w3-bar  w3-white"> -->
+                        <a href="#" class="w3-bar-item w3-button w3-green">HOME</a>
+                        <div class="w3-dropdown-hover">
+                            <button class="w3-button  w3-hover-green">ABOUT</button>
+                            <div class="w3-dropdown-content w3-bar-block w3-card-4" style="font-size: small;">
+                                <a href="#" class="w3-bar-item w3-button">Overview</a>
+                                <a href="#" class="w3-bar-item w3-button">Management</a>
+                                <a href="#" class="w3-bar-item w3-button">Quality & Certificates</a>
+                                <a href="#" class="w3-bar-item w3-button">Industries We Serve</a>
+                            </div>
+
+                        </div>
+                        <div class="w3-dropdown-hover">
+                            <button class="w3-button  w3-hover-green">PRODUCTS</button>
+                            <div class="w3-dropdown-content w3-bar-block w3-card-4" style="font-size: small;">
+                                <a href="#" class="w3-bar-item w3-button">Grading Machines</a>
+                                <a href="#" class="w3-bar-item w3-button">Mobile grading Machine</a>
+                                <a href="#" class="w3-bar-item w3-button">Belt Conveyors</a>
+                                <a href="#" class="w3-bar-item w3-button"> Packing Belt Conveyors</a>
+                            </div>
+
+                        </div>
+                        <a href="#" class="w3-bar-item w3-button w3-hover-green">PROJECTS</a>
+                        <div class="w3-dropdown-hover">
+                            <button id="openDialogButton" class="w3-button  w3-hover-green">CONTACT</button>
+                            <br>
+                            <!-- <div class="w3-dropdown-content w3-bar-block w3-card-4" style="font-size: small;">
+                                <a href="#" id="openDialogButton" class="w3-bar-item w3-button">Feed Back</a>
+
+                            </div> -->
+
+                        </div>
+
+                        <dialog class="container_dialog" id="feedbackDialog">
+                            <!-- <button style="margin-left: 100%; margin-bottom: 10px; background-color: rgb(141, 138, 138); border-radius: 20%;" type="button" id="closeDialogButton">&times;</button> -->
+                            <!-- <div class="container_dialog"> -->
+
+                            <div>
+
+                                <p>
+                                    <button
+                                        style="margin-left: 100%; background-color: rgb(141, 138, 138); border-radius: 20%;margin-top: 0px;"
+                                        type="button" id="closeDialogButton">&times;</button>
+                                      
+                                            <img src="https://github.com/Codman899/ATGS/blob/images/dialog_box.png?raw=true " style="padding: 0  0 15px; height: 270px;">
+                                        
+                                            <form id="feedbackForm" style="margin-top: 8px">
+
+                                                <input type="text" id="username" name="username" placeholder="Name *" min="1" required>
+                
+                
+                                                <input type="email" id="email" name="email" placeholder="Email *" min="10" required>
+                
+                                                <input type="tel" id="tel" name="tel" placeholder="Mobile *" maxlength="10" required>
+                                                <br>
+                
+                                                <textarea id="requirement" name="requirement" rows="3" placeholder="Requirement" required></textarea>
+                                                <br>
+                                                <input type="submit"  value="Submit" id="submit">
+                                                <br>
+                                               
+                                            </form>
+                                </p>
+                            </div>
+
+
+
+                            <!-- <form id="feedbackForm" style="margin-top: 8px">
+
+                                <input type="text" id="username" name="username" value="Name *" required>
+
+
+                                <input type="email" id="email" name="email" value="Email *" required>
+
+                                <input type="tel" id="tel" name="tel" value="Mobile *" required>
+                                <br>
+
+                                <textarea id="requirement" name="requirement" rows="3" required></textarea>
+                                <br>
+                                <input type="submit" value="Submit" id="submit">
+                                <br>
+                               
+                            </form> -->
+
+                    
+
+                            <!-- </div> -->
+                        </dialog>
+                        <a href="https://goo.gl/maps/w7v3yH5ximxa721LA"
+                            class="w3-bar-item w3-button w3-hover-green">LOCATION</a>
+                    </div>
+
+                    <!-- </div> -->
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="main-slider">
+
+        <div class="carousel-container">
+            <div class="images fade">
+                <img src="https://github.com/Codman899/ATGS/blob/images/all_tech1(2).png?raw=true">
+            </div>
+            <div class="images fade">
+                <img src="https://github.com/Codman899/ATGS/blob/images/all_tech_conveyor.png?raw=true">
+            </div>
+            <div class="images fade">
+                <img src="https://github.com/Codman899/ATGS/blob/images/all_tech1333.png?raw=true">
+            </div>
+
+            <!-- Previous and Next Buttons -->
+            <a class="previous" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+        <br>
+
+
+        <script>
+            var currentIndex = 1;
+
+            //Show current image
+            showSlides(currentIndex);
+
+            //Function to move Next
+            function plusSlides(n) {
+                showSlides(currentIndex += n);
+            }
+
+            //Function to move back
+            function currentSlide(n) {
+                showSlides(currentIndex = n);
+            }
+
+
+            //Initiate moving of slides
+            function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("images");
+                //    var dots = document.getElementsByClassName("navigation-dot");
+                if (n > slides.length) { currentIndex = 1 }
+                if (n < 1) { currentIndex = slides.length }
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                //    for (i = 0; i < dots.length; i++) {
+                //       dots[i].className = dots[i].className.replace(" active", "");
+                //    }
+                slides[currentIndex - 1].style.display = "block";
+                setTimeout(showSlides, 2000);
+                //    dots[currentIndex-1].className += " active";
+            }
+        </script>
+    </div>
+
+    <div style="margin-bottom: 69px;">
+        <div style="padding-top:5px;padding-bottom:32px">
+            <div class="selection-wrapper">
+                <div class="product-range-align" style="padding: 0.1%;width: 1400px;">
+                    <div>
+                        <div class="column mcb-column one column_column  column-margin-">
+
+                            <div
+                                style=" background-image:url('https://agrosaw.com/wp-content/uploads/2014/11/home_leaf_slider_sep.png'); background-repeat:no-repeat; background-position:center bottom; padding:0 0 30px;">
+                                <h1 style="font-size:42px; line-height:42px;text-align: center;">PRODUCT <b>RANGE</b>
+                                </h1>
+                            </div>
+
+
+                        </div>
+
+                        <!-- First card star here  -->
+                        <div class="card-container">
+                            <div class="card">
+                                <img src="https://github.com/Codman899/ATGS/blob/images/67097031_2603830166316345_4013760806284951552_n-removebg-preview.png?raw=true"
+                                    alt="Apple">
+                                <div class="card-content">
+                                    <h2>Apple Grading Machine</h2>
+                                    <!-- <p>This is the content of Card 1.</p> -->
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://github.com/Codman899/ATGS/blob/images/fruit-grading-machine-500x500-transformed.png?raw=true"
+                                    alt="Card 2">
+                                <div class="card-content">
+                                    <h2>Onion Grading Machine</h2>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://github.com/Codman899/ATGS/blob/images/garlic-grading-machine-500x500-transformed.png?raw=true"
+                                    alt="Card 3">
+                                <div class="card-content">
+                                    <h2>Garlic Grading Machine</h2>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://github.com/Codman899/ATGS/blob/images/Orange%20grading.png?raw=true">
+                                <div class="card-content">
+                                    <h2>Orange Grading Machine</h2>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://github.com/Codman899/ATGS/blob/images/Mobile_grading.png?raw=true">
+                                <div class="card-content">
+
+                                    <h2>Mobile Grading Machine</h2>
+
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <img src="https://github.com/Codman899/ATGS/blob/images/packing_belt.png?raw=true">
+                                <div class="card-content">
+                                    <h2>Packing Belt Conveyor</h2>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://github.com/Codman899/ATGS/blob/images/magnetic_belt.png?raw=true">
+                                <div class="card-content">
+                                    <h2>Magnetic Belt Conveyor</h2>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://github.com/Codman899/ATGS/blob/images/inclined-conveyor.png?raw=true">
+                                <div class="card-content">
+                                    <h2>Inclined Belt Conveyor</h2>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img
+                                    src="https://github.com/Codman899/ATGS/blob/images/Stacker-Conveyor-transformed.png?raw=true">
+                                <div class="card-content">
+                                    <h2>Stacker Conveyor</h2>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img
+                                    src="https://github.com/Codman899/ATGS/blob/images/fruit-and-vegetables-washing-machine.jpg?raw=true">
+                                <div class="card-content">
+                                    <h2>Fruits & Vegetable Washing Tank</h2>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="https://github.com/Codman899/ATGS/blob/images/waxing.jpg?raw=true">
+                                <div class="card-content">
+                                    <h2>Waxing, Drying Machine </h2>
+
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img
+                                    src="https://github.com/Codman899/ATGS/blob/images/hydraulic-truck-loading-conveyor.jpg?raw=true">
+                                <div class="card-content">
+                                    <h2>Truck Loading/Unloading Conveyor System </h2>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- card end here -->
+
+                        <div class="customer_text"
+                            style="background-color: #d2edda;background-position: center center;background-repeat: no-repeat;padding-top:40px;padding-right:50px;padding-bottom:30px;padding-left:50px;margin-bottom: 0px;border-width: 0px 0px 0px 0px;border-color:#eae9e9;border-style:solid;">
+
+                            <div>
+                                <div class="text_area" style="margin-top:0px;margin-bottom:40px;">
+
+                                    <div class="text_area_inside"
+                                        style="background-position:left top;background-repeat:no-repeat;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;background-color:rgba(255,255,255,0);padding: 0px 2% 0px 2%;">
+                                        <div class="HEADING_text ">
+                                            <h2
+                                                style="text-align: center;font-size: 18;font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+                                                ATGS processing lines</h2>
+                                            <p style="text-align: center; font-family: Arial;font-size: large;">ATGS
+                                                offers a superior range of <a href="#">processing lines</a> suitable for
+                                                receiving, sorting, grading, washing, polishing, brushing, weighing,
+                                                bagging, and packaging a variety of products. There are different
+                                                product series to choose from, so you will definitely find the vegetable
+                                                processing equipment you need in terms of production, capacity and
+                                                performance.</p>
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <!-- video start -->
+
+                        <div class="section mcb-section  dark "
+                            style="padding-top:0px; padding-bottom:0px; background-color:#2fb18c">
+                           
+                                                        <h3><span style="color:#ffffff; font-size:18px;">THE ONE STOP
+                                                                SOLUTIONS FOR ALL YOUR NEEDS</span></h3>
+                                                    
+                                                    <!-- <div class="call_center"><a
+                                                            href="https://www.youtube.com/watch?v=ukFbcOps-aU" class=""
+                                                            rel="prettyphoto"><span class="icon_wrapper"><i
+                                                                    class="icon-play"></i></span></a></div> -->
+                                                    <div class="call_right">
+                                                        <!-- <div class="desc"><strong>Watch Our Video</strong></div> -->
+                                                    </div>
+                                         
+                        
+                        </div>
+
+                        <!-- video end here  -->
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </div>
+    <!-- footer start here -->
+    <footer class="footer" style="margin-bottom: 0px;">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>All Tech Grading Solution</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Range of products </h4>
+                    <ul>
+                        <li><a href="#">All Round Fruits & Vegetables Sorting Machine</a></li>
+                        <li><a href="#">Cold storage Bag Lifting Conveyor System</a></li>
+                        <li><a href="#">Truck Loading/Unloading Conveyor System</a></li>
+
+                        <li><a href="#">Washing Tank for Fruits & Vegetables </a></li>
+                        <li><a href="#">Waxing/Drying Fruits</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f" style="margin-top: 8px;"></i></a>
+                        <a href="#"><i class="fab fa-twitter " style="margin-top: 8px;"></i></a>
+                        <a href="#"><i class="fab fa-instagram" style="margin-top: 8px;"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in" style="margin-top: 8px;"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer_bottom">&copy;<span> Copyright 2023 | All rights reserved | Developed By - Ankit | <b>All
+                        Tech Grading Solution</b></span></div>
+        </div>
+
+        <!--last-->
+
+    </footer>
+    <!-- footer end here -->a
+
+
+
+    <script>
+        const openDialogButton = document.getElementById('openDialogButton');
+        const closeDialogButton = document.getElementById('closeDialogButton');
+        const feedbackDialog = document.getElementById('feedbackDialog');
+        const feedbackForm = document.getElementById('feedbackForm');
+
+        openDialogButton.addEventListener('click', () => {
+            feedbackDialog.showModal();
+        });
+
+        closeDialogButton.addEventListener('click', () => {
+            feedbackDialog.close();
+        });
+
+    </script>
+    <script type="module">
+
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-app.js";
+        import { getDatabase, ref, set, get, child } from "https://www.gstatic.com/firebasejs/10.3.1/firebase-database.js";
+
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyA1ZK2tGiNQA1AVAh8A2ES289ypylcVxAc",
+            authDomain: "atgs-44ed6.firebaseapp.com",
+            projectId: "atgs-44ed6",
+            storageBucket: "atgs-44ed6.appspot.com",
+            messagingSenderId: "412344557327",
+            appId: "1:412344557327:web:f824535f5431e567dce87a"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+
+        //get ref to database services
+
+        const db = getDatabase(app);
+
+        document.getElementById("submit").addEventListener('click', function (e) {
+            e.preventDefault();
+
+            set(ref(db, 'user/' + document.getElementById("username").value), {
+                username: document.getElementById("username").value,
+                email: document.getElementById("email").value,
+                tel: document.getElementById("tel").value
+
+
+
+            })
+            alert("submit Sucessful !")
+
+        })
+
+    </script>
+
+
+
+
+</body>
+
+</html>
